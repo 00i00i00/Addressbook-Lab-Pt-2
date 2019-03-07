@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    background-image: url("https://wallpapermemory.com/uploads/480/ocean-wallpaper-hd-1440x900-392371.jpg");
+    background-size: cover;
+    background-color: grey;
+    background-attachment: fixed;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+    width: 400px;
+    opacity: 0.8;
+    border-radius: 3px;
+    margin-bottom: 25px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    height: 250px;
+}
+
+h1 {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+input {
+    padding-left: 10px;
+}
+
+input, select, #buttonAdd {
+    margin-bottom: 15px;
+    height: 1.5rem;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Nunito', sans-serif;
+    font-size: .6rem;
+    font-weight: 800;
+
+}
+
+select {
+    padding-left: 5px;
+}
+
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 750px;
+    
+}
+
+
+.contactDiv {
+    background-color: lightgrey;
+    opacity: 0.9;
+    font-size: 0.8rem;
+    border-radius: 3px;
+    padding: 5px;
+    position: relative;
+    font-weight: 600;
+    width: 200px;
+    height: 130px;
+    margin-bottom: 25px;
+}
+
+.fa-trash-alt {
+    background: white;
+    padding: 3px;
+    border-radius: 30px;
+    border: 1px solid black;
+    }
+
+
+.deleteButton {
+    border: none;
+    border-radius: 30px;
+    padding: 0;
+}
+    
+.deleteButton, .fa-trash-alt {
+    position: absolute;
+    left: 100px;
+    top: 65px;
+    
+}
